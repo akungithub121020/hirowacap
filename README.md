@@ -1,4 +1,4 @@
-## REUZSC
+## HIRO BOT
 BOT WHATSAPP YANG BISA DIGUNAKAN DI TERMUX
 
 
@@ -12,12 +12,15 @@ BOT WHATSAPP YANG BISA DIGUNAKAN DI TERMUX
 ```bash
 > download termux
 > buka
-> pkg install git
-> pkg install ffmpeg
-> pkg install nodejs
+> termux-setup-storage
 > apt update && apt upgrade
-> git clone https://github.com/benisadewa/reuzsc
-> cd reuzsc
+> pkg install git
+> git clone https://github.com/akungithub121020/hirowacap
+> cd hirowacap
+> pkg install nodejs
+> Pkg install ffmpeg
+> npm i -g cwebp
+> nmp i -g ytdl && npm i && npm i got
 > bash install.sh
 > node index.js
 ```
